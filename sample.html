@@ -13,7 +13,7 @@ body {
 }
 
 #wrapper {
-    text-align: left;
+    text-align: center;
     margin-top: 0px;
     margin-bottom:0px;
     margin-right: auto;
@@ -44,6 +44,56 @@ body {
     border-bottom-right-radius:25px; 
     color: white;
 }
+
+#logo {
+    height: 95px;
+    background-color: #666699;
+    padding-bottom: 12px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#banner {
+    height: 180px;
+    background-color: blue;
+    color: white;
+}
+#nav {
+    height: 370px;
+    width: 200px;
+    background-color: #668888;
+    color: white;
+    float: left;
+}
+
+#categories {
+    height: 370px;
+    width: 200px;
+    background-color: #668888;
+    color: white;
+    float: right;
+}
+
+#cont{
+     height: 370px;
+    width: 380px;
+    float: left;
+}
+#contentTop {
+    height: 185px;
+    width: 380px;
+    float:left;
+    color: white;
+    background-color: darkgreen;
+}
+
+#contentBottom {
+    height: 185px;
+    width: 380px;
+    float:left;
+    color: white;
+    background-color: green;
+}
 -->
 </style>
 </head>
@@ -51,14 +101,19 @@ body {
 <body>
     <div id ="wrapper">
         <div id="header">
-                
+              <div id="logo"> Logo </div>
+              <div id="banner"> Banner </div>              
         </div>
+        
         <div id="content">
-            
+              <div id="nav"> Navigation </div> 
+              <div id="cont"> 
+                <div id="contentTop"> Content Top </div>
+                <div id="contentBottom"> Content Bottom </div>
+              </div>
+              <div id="categories"> Categories </div>  
         </div>
-        <div id="footer">
-            
-        </div> 
+        <div id="footer"> Footer </div> 
     </div>
 </body>
 </html>
